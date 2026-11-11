@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f9dce8" />
+  <title>رسالة من القلب ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+  <div class="hearts" id="hearts" aria-hidden="true"></div>
+
+  <main class="card">
+    <div class="big-heart" aria-hidden="true">♥</div>
+    <p class="message" aria-label="مهما غبت عن عيني، هتفضل أقرب حد لقلبي، ووحشتيني أكتر من كل الكلام اللي ممكن يتقال">
+      مهما غبت عن عيني، هتفضل أقرب حد لقلبي،<br>
+      ووحشتيني أكتر من كل الكلام اللي ممكن يتقال
+    </p>
+
+    <div class="player-wrap">
+      <div class="music-note" aria-hidden="true">♫</div>
+      <p class="song-title">أغنية مخصوص ليكي ❤️</p>
+      <audio id="song" controls autoplay loop preload="auto" playsinline>
+        <source src="song.m4a" type="audio/mp4" />
+        متصفحك لا يدعم تشغيل الصوت.
+      </audio>
+      <p id="status" class="status" aria-live="polite">بنحاول نشغّل الأغنية…</p>
+      <button id="playButton" type="button">شغّلي الأغنية ❤️</button>
+    </div>
+    <p class="footer">Made with love ♡</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
